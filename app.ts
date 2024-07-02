@@ -7,7 +7,6 @@ export default function str(s: string): string {
 
     for (const char of s) {
         if (lastChar === char) {
-            //lastChar = char;
             currentLong++;
         } else {
             if (currentLong > longestLong) {
